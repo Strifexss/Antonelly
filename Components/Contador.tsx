@@ -7,7 +7,7 @@ export default function Contador() {
     useEffect(() => {
         const interval = setInterval(() => {
             const now = new Date();
-            const difference = targetDate - now;
+            const difference = targetDate.getTime() - now.getTime(); // Corrigido: .getTime() para obter o valor numérico
 
             if (difference <= 0) {
                 clearInterval(interval); // Para o intervalo quando o tempo acabar
