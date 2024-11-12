@@ -25,9 +25,16 @@ export default function Musicas() {
             title: 'Cigana - Delacruz',
             url: 'https://www.youtube.com/embed/EJMd8tSLGw4',
             trecho: 'Ô morena, diga quando você vem Não aguento mais, preciso matar essa saudade Não me teste, você sabe do que sou capaz, eu Faço uma loucura, vou te convidar pra uma aventura Algumas coisas o tempo não cura Você não mensura o bem que você me faz',
+        }, {
+            title: 'Partilhar - Rubel',
+            url: 'https://www.youtube.com/embed/ivHE7pQEEHI',
+            trecho: 'Se for preciso, eu giro a Terra inteira\n' +
+                'Até que o tempo se esqueça\n' +
+                'De ir pra frente e volte atrás milhões de anos\n' +
+                'Quando todos continentes se encontravam\n' +
+                'Pra que eu possa caminhar até você',
         },
     ];
-
     return (
         <main className="w-screen h-auto flex flex-col items-center p-8 bg-zinc-800 gap-6 text-white">
             <header className="text-3xl font-bold mb-6 text-center">
