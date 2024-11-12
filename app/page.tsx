@@ -3,7 +3,6 @@ import Hero from "@/Components/hero";
 import Sobre from "@/Components/Sobre";
 import '@/app/globals.css';
 import Contador from "@/Components/Contador";
-import MusicPlayer from "@/Components/musicPlayer";
 import Musicas from "@/Components/Musicas"; // ajuste o caminho conforme necessário
 
 export default function Home() {
