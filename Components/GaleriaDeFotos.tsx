@@ -7,7 +7,8 @@ export default function GaleriaDeFotos() {
     { src: "/nos/imagem2.jpg", legenda: "Cada momento com você é único." },
     { src: "/nos/imagem.jpg", legenda: "O sorriso mais lindo de todos." },
     { src: "/nos/imagem3.jpg", legenda: "Só você pra me fazer feliz." },
-    // Pode adicionar mais depois sem problema
+    { src: "/nos/imagem4.jpg", legenda: "Cada dia que se passa te amo mais" },
+    { src: "/nos/imagem5.jpg", legenda: "Cada momento com você é único" },
   ];
 
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
