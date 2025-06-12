@@ -5,7 +5,8 @@ import '@/app/globals.css';
 import Contador from "@/Components/Contador";
 import Musicas from "@/Components/Musicas";
 import GaleriaDeFotos from "@/Components/GaleriaDeFotos";
-import MensagemFinal from "@/Components/MensagemFinal"; // ajuste o caminho conforme necessário
+import MensagemFinal from "@/Components/MensagemFinal";
+import Pedido from "@/Components/Pedido";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Musicas/>
             <MensagemFinal/>
             <Contador/>
+            <Pedido/>
       </main>
   );
 }
